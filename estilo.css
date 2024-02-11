@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #754EF9;
+}
+
+.button{
+    background: #764ef9be;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border:none;
+    color: white;
+    padding: 0.5rem;
+    font-weight:100;
+    transition: 500ms linear; 
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background: #754EF9; (35, 115, 235, 0.808);
+    font-weight: 10px;
+    transition: 500ms linear; 
+    color: white;
+}
+
+h1{
+  
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 20px;
+    color: #ffff;
+}
+.fundo-titulo{
+    background: #754EF9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.input-1{
+
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #754EF9;
+    outline: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+}
+
+.input-2{
+    border: 1px solid #ccc;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.incluir{
+    background: blue;
+    background: #006EFF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border:none;
+    color: white;
+    font-weight: 100;
+    font-weight:100;
+    transition: 500ms linear; 
+}
+
+.button2{
+
+    background: #764ef9;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15.5px;
+    border:none;
+    color: white;
+    padding: 0.5rem;
+    font-weight:100;
+    transition: 500ms linear; 
+}
+
+.incluir:hover{
+    background: rgba(67, 134, 235, 0.808);
+    color: white;
+    background: #754EF9; (35, 115, 235, 0.808);
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295) ;
+}
+
+select#flista {
+    width: 250px;
+    height: 100px;
+}
+
+div{  
+    padding: 8px;
+}
+footer{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    font-style: italic;
+}
